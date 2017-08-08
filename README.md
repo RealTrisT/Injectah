@@ -29,3 +29,9 @@ Then all you have to do is add an entry to RegisterMenu.bat, which you'd do by a
 ```
 where ``n`` in cmdN is the index, ``Option Name`` the type of injection and ``CmdArg`` the 
 letter that's gonna show up in said line 95-97 from *main.cpp*, to the end of *RegisterMenu.bat*  
+
+## Me
+Feel free to leave feedback, this was my first post on github and is probably complete trash,
+chances are I even was a dick somehow by doing something that isn't generally accepted in
+this community as I do with most starting out.
+So ye, you can even be a dick about it, as long as it's constructive criticism.
