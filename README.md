@@ -16,8 +16,8 @@ same folder. Profit.
 ## Methods Of Injection
 #### Default
 I did not include the file containing the inject functions *LoadLibraryInject* and 
-*ThreadHijackInject* *Inject.h"* since there are already many options out there for 
-anyone looking to copy paste, and anyone at least somewhat smart can or has made their 
+*ThreadHijackInject* that is *"Inject.h"* since there are already many options out there 
+for anyone looking to copy paste, and anyone at least somewhat smart can or has made their 
 own.  
 #### Add Your Own
 It's not hard to add your own functions, in *main.cpp* there are the defines in line 12-13,
