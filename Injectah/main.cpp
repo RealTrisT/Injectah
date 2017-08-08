@@ -92,7 +92,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
 	inipath = inipath.substr(0, inipath.find_last_of(L"\\/")+1) + L"injectah.ini";
 	if (!PathFileExists(inipath.c_str())){ argumentsOK = !debugW(L"No injectah.ini In Injector Folder", L"Injectah");}//if .ini exists
 	if (argc > 2) { 
-		if (wcscmp(argvW[2], L"/h") == 0) InjectionMode = IM_THREAD_HIJACK; //third argument /m do manual mapping
+		if (wcscmp(argvW[2], L"/h") == 0) InjectionMode = IM_THREAD_HIJACK; //third argument /h do thread hijacking
 		else if (wcscmp(argvW[2], L"/l") == 0)InjectionMode = IM_CT_LL;  //third argument /l do createthread loadlibrary
 		else InjectionMode = IM_CT_LL; }//unknown mode default to createthread loadlibrary
 	else { InjectionMode = IM_CT_LL; }//no third argument default to createthread loadlibrary
