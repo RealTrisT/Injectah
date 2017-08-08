@@ -10,15 +10,15 @@ faster, since testing dlls with a regular injector might get boring and slow due
 amount of times one has to inject.  
 ## Set Up
 Fairly Easy To Setup:
-Put Injectah.exe into a folder, create an injectah.ini with the process names you want
-the dll to be injected to, and execute RegisterMenu.bat in that same folder.
-Profit.
+Put Injectah.exe into a folder, create an injectah.ini(example in examples folder) with 
+the process names you wantthe dll to be injected to, and execute RegisterMenu.bat in that 
+same folder. Profit.
 ## Methods Of Injection
 #### Default
 I did not include the file containing the inject functions *LoadLibraryInject* and 
 *ThreadHijackInject* *Inject.h"* since there are already many options out there for 
-anyone looking to copy paste, and anyone at least somewhat smart can or has made 
-their own.  
+anyone looking to copy paste, and anyone at least somewhat smart can or has made their 
+own.  
 #### Add Your Own
 It's not hard to add your own functions, in *main.cpp* there are the defines in line 12-13,
 the read (command line arguments) in line 95-97, and the check on line 212 onward.
