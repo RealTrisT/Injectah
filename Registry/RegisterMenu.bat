@@ -43,5 +43,5 @@ if '%errorlevel%' NEQ '0' (
 @reg add "HKEY_CLASSES_ROOT\dllfile\shell\Inject\Shell"         /t REG_SZ /v "" /f
 @reg add "HKEY_CLASSES_ROOT\dllfile\shell\Inject\Shell\cmd1"         /t REG_SZ /v "MUIVerb" /d "LoadLibrary"   /f
 @reg add "HKEY_CLASSES_ROOT\dllfile\shell\Inject\Shell\cmd1\command" /t REG_SZ /v "" /d "\"%CD%\Injectah.exe\" \"%%1\" /l" /f
-@reg add "HKEY_CLASSES_ROOT\dllfile\shell\Inject\Shell\cmd2"         /t REG_SZ /v "MUIVerb" /d "Manual Mapping"   /f
-@reg add "HKEY_CLASSES_ROOT\dllfile\shell\Inject\Shell\cmd2\command" /t REG_SZ /v "" /d "\"%CD%\Injectah.exe\" \"%%1\" /m" /f
+@reg add "HKEY_CLASSES_ROOT\dllfile\shell\Inject\Shell\cmd2"         /t REG_SZ /v "MUIVerb" /d "Thread Hijacking"   /f
+@reg add "HKEY_CLASSES_ROOT\dllfile\shell\Inject\Shell\cmd2\command" /t REG_SZ /v "" /d "\"%CD%\Injectah.exe\" \"%%1\" /h" /f
